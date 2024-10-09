@@ -1,0 +1,101 @@
+/* Cover started */
+.cover{
+    margin-bottom:20px ;
+}
+.cover-wrapper{
+    background-image: url(../assets/service-page/cover/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 150px 0px;
+    color: #ffffff;
+}
+/* Cover ended */
+/* Content started */
+.content{
+    margin-bottom:20px ;
+}
+.content-container{
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+
+/* Content ended */
+/* Branding started */
+.branding{
+    margin-bottom: 50px;
+}
+.broanding-container{
+    max-width: 70%;
+    margin: 0px auto;
+}
+.branding-wrapper{
+    background-image: url(../assets/service-page/contact/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0px;
+    overflow: scroll;
+}
+.branding-wrapper>div>div h4{
+    color: #F4BA2A;
+}
+.branding-wrapper>div>div p{
+    color: #ffffff;
+}
+/* Branding ended */
+/* History started */
+.history-container{
+    max-width: 75%;
+    margin: 0px auto;
+}
+.history-wrapper>div{
+    background: #222222;
+    padding: 30px 0px;
+}
+.history-wrapper>div>div:nth-child(1)>div span{
+    background: #F4BA2A;
+    padding: 30px ;
+    font-size: 28px;
+    font-weight: 500;
+    
+}
+.history-wrapper>div>div:nth-child(2)>div span{
+    background: #F4BA2A;
+    padding: 30px ;
+    font-size: 28px;
+    font-weight: 500;
+    width: 100%;
+}
+.history-wrapper>div>div:nth-child(2)>div h2{
+    color: #F4BA2A;
+}
+.history-wrapper>div>div:nth-child(2)>div p{
+    color: #ffffff;
+}
+.history-wrapper>div>div:nth-child(1)>div h2{
+    color: #F4BA2A;
+}
+.history-wrapper>div>div:nth-child(1)>div p{
+    color: #ffffff;
+}
+/* History ended */
+/* Footer started */
+.footer-container{
+    max-width: 70%;
+    margin: 0px auto;
+}
+.footer-wrapper{
+    color: #fff;
+    background-image: url(../assets/home-page/footer/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    padding-top: 30px;
+    overflow: scroll;
+}
+/* Footer ended */

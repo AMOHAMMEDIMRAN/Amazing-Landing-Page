@@ -1,0 +1,11 @@
+#740db4
+#fea92c button
+#7110ab carrer
+#f0f0f0 bg
+#707070 discrip
+#0d435b card1
+#5b2d99 card2
+#7e3218 card3
+#7e3218 card3 btn
+#2a2a2a blk
+#fff8ff header white

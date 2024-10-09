@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* Introduction Page Start */
+.intro-page{
+    background: url(../asset/introduction/bg.svg),#ffffff;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+}
+.container{
+    max-width: 1110px;
+    margin: 0px auto;
+}
+.header-wrapper div:nth-child(1) a{
+    color: #505F98;
+    font-weight: 500;
+    font-size: 14px;
+}
+.header-wrapper div:nth-child(2) h2{
+    color: #37447E;
+    font-size: 26px;
+    font-weight: 700;
+}
+.header-wrapper div:nth-child(3) a{
+    background: #111B47;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 55px;
+    border-radius: 5px;
+}
+.banner-wrapper>div>div>div{
+    padding: 150px 0px;
+}
+.banner-wrapper>div>div div:nth-child(1) h1{
+    color: #091133;
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-wrapper>div>div div:nth-child(2) p{
+    color: #505F98;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-wrapper>div>div div:nth-child(3) p{
+    color: #505F98;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-wrapper>div>div div:nth-child(4) div:nth-child(1) a{
+    background: #111B47;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.banner-wrapper>div>div div:nth-child(4) div:nth-child(2) a{
+    background: transparent;
+    color: #111B47;
+    border: 2px solid #111B47;
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 426px){
+    .intro-page{
+        background: #ffffff;
+    }
+}
+/* Introduction Page End */
+
+/* Powerful Page Start */
+
+.powerful-wrapper{
+    padding: 100px 0px;
+}
+.powerful-wrapper>div>div div:nth-child(1) h2{
+    color: #091133;
+    font-size: 36px;
+    font-weight: 600;
+}
+.powerful-wrapper>div>div div:nth-child(2) p{
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+}
+.powerful-wrapper>div>div div:nth-child(3) p{
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+}
+.powerful-wrapper>div>div div:nth-child(4)>div:nth-child(1)>div h3{
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+}
+.powerful-wrapper>div>div div:nth-child(4)>div:nth-child(1)>div p{
+    color: #5D6970;
+    font-size: 12px;
+    font-weight: 400;
+}
+.powerful-wrapper>div>div div:nth-child(4)>div:nth-child(2)>div h3{
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+}
+.powerful-wrapper>div>div div:nth-child(4)>div:nth-child(2)>div p{
+    color: #5D6970;
+    font-size: 12px;
+    font-weight: 400;
+}
+.powerful-wrapper>div>div div:nth-child(4)>div{
+    margin-top: 90px;
+}
+/* Powerful Page End */
+
+/* Light page Start */
+
+.light-wrapper>div{
+    padding: 120px 0px;
+}
+.light-wrapper>div>div div:nth-child(1) h2{
+    color: #091133;
+    font-size: 36px;
+    font-weight: 500;
+}
+.light-wrapper>div>div div:nth-child(2) p{
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+}
+.light-wrapper>div>div div:nth-child(3) p{
+    color: #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Light page End */
+/* Price page Start */
+
+.price{
+    background: url(../asset/price/Rectangle.svg),#ffffff;
+}
+
+/* Price page End */

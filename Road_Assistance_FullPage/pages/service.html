@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Roadside Assistance</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/service.css" />
+    <link rel="stylesheet" href="../style/home.css" />
+  </head>
+  <body>
+    <!-- Service page started -->
+    <div class="service-page">
+      <div class="service-page-wrapper">
+        <!-- header started -->
+        <div class="header">
+          <div class="container">
+            <div class="header-wrapper">
+              <nav class="navbar navbar-expand-lg">
+                <div>
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/logo/logo.jpeg" alt="Logo" class="logo">
+                  </a>
+                </div>
+                
+                <!-- Hamburger Menu Toggle -->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                
+                <!-- Navigation Menu -->
+                <ul class="navbar-nav ms-auto d-flex align-items-center gap-3 flex-wrap">
+                  <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                  <li class="nav-item"><a id="active" class="nav-link" href="./service.html">Service</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                  <li class="nav-item"><a id="book-btn" class="nav-link" href="#">Book Now</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- header ended -->
+        <!-- cover started -->
+        <div class="cover">
+          <div class="cover-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center">
+                  <h2>Service</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cover ended -->
+        <!-- Our service started -->
+        <div class="our-service">
+          <div class="container">
+            <div class="our-service-wrapper">
+              <div class="text-center">
+                <h2>Our Services</h2>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/on-site.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>On-site assistance</h3>
+                    <span
+                      >On-site roadside assistance offering immediate support
+                      for all types of vehicle issues
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/car-tow.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Car Towing</h3>
+                    <span
+                      >We safely and efficiently transport your vehicle when it
+                      breaks down or needs to be moved,
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/fuel.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Fuelfilling</h3>
+                    <span
+                      >Fuel filling services provide convenient and efficient
+                      refueling for your vehicle wherever you are.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/battery.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Battery Jumpstart</h3>
+                    <span
+                      >We quickly jumpstart your vehicle's dead battery, getting
+                      you back on the road fast. Available 24/7.
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/flat.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>FlatTire Repair</h3>
+                    <span
+                      >We provide fast and reliable tire repairs or replacements
+                      wherever you are, getting you back on the road quickly.
+                      Available 24/7.
+                    </span>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div
+                    class="p-3 d-flex flex-column gap-3 text-center px-3 border border-dark"
+                  >
+                    <div class="text-center">
+                      <img
+                        src="../assets/home-page/our-service/door.svg"
+                        alt=""
+                      />
+                    </div>
+                    <h3>Door Step Service</h3>
+                    <span
+                      >We bring expert car maintenance and repairs to your
+                      location,offering convinence & quality care
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Our service ended -->
+        <!-- contact started -->
+        <div class="contact">
+          <div class="contact-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center"
+                >
+                  <h2>Quick Arrival</h2>
+                  <h2 id="number">0452 8787878</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- contact ended -->
+        <!-- Footer started -->
+        <div class="footer">
+          <div class="footer-wrapper">
+            <div class="footer-container">
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <div>
+                    <h4>About us</h4>
+                    <p>
+                      Our roadside assistance app provides quick and reliable
+                      help when you need it most. With a user-friendly
+                      interface, you can request services such as towing, tire
+                      changes, fuel delivery, and more with just a few taps
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div>
+                    <h4>Download our app</h4>
+                    <p>
+                      Experience peace of mind on the road with our cutting-edge
+                      roadside assistance app.
+                    </p>
+                    <img
+                      src="../assets/home-page/footer/play-store.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div>
+                    <h4>Recent Links</h4>
+                    <ul>
+                      <li>Home</li>
+                      <li>About</li>
+                      <li>Services</li>
+                      <li>Blog</li>
+                      <li>Contact</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer ended -->
+      </div>
+    </div>
+    <!-- Service page ended -->
+  </body>
+</html>
